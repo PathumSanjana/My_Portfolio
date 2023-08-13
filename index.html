@@ -9,21 +9,23 @@
 
 </head>
 <body>
-    <nav><div class="nav_content">
-         <div class="logo"><a href="#">Pathum Sanjana</a></div>
-         <lable for="check" class="checkbox">
-            <i class="ri-menu-line"></i>
-         </lable>
-         <input type="checkbox" id="check">
-         <ul>
-             <li><a href="#about">About</a></li>
-             <li><a href="#education">Education</a></li>
-             <li><a href="#skills">Skills</a></li>
-             <li><a href="#projects">Projects</a></li>
-             <li><a href="#contact">Contact</a></li>
-         </ul>      
-    </div></nav>
-
+    <nav>
+        <div class="nav_content">
+             <div class="logo"><a href="#">Pathum Sanjana</a></div>
+             <label for="check" class="checkbox">
+                <button class="ri-menu-line" onclick="toggleMenu()"></button>
+             </label>
+             <input type="checkbox" name="check" id="check">
+             <ul>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#education">Education</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                 <li><a href="#contact">Contact</a></li>
+             </ul>     
+        </div>
+    </nav>
+    
     <section class="section" id="about">
         <div class="section_container">
             <div class="image">
@@ -43,10 +45,10 @@
                     <button class="hire_me">Hire Me</button>
                     <button class="get_resume">Get Resume</button>
                 </div>
-            </div>
-            
+            </div>    
         </div>
     </section>
+    <script src="script.js"></script>
     
 </body>
 </html>
