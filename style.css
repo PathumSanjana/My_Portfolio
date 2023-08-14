@@ -178,10 +178,11 @@ ul li a:hover{
 }
 
 .image img{
-    width: min(28rem, 90%);
+    width: min(25rem, 90%);
     border-radius: 60%;
-    height: 30rem;
+    height: 27rem;
     border: 1px solid var(--primary-color);
+    margin-right: 15%;
 }
 
 .infor{
@@ -249,13 +250,13 @@ ul li a:hover{
 
 .image1{
     display:flex;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .image1 img{
     flex: 1;
     border-radius: 60%;
-    height: 10rem;
+    height: 11rem;
     border: 1px solid var(--primary-color);
     margin-left: 5%;
     margin-right: 5%;
@@ -291,6 +292,11 @@ ul li a:hover{
     border-radius: 5%;
 }
 
+h5{
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 750px){
     nav .checkbox{
         display: block;
@@ -299,16 +305,21 @@ ul li a:hover{
     ul{
         position:absolute;
         width: 100%;
-        height: calc(100vh - 85px);
+        height: calc(60vh - 85px);
         left: -100%;
-        top: 85px;
+        top: 100px;
         background-color: var(--primary-color);
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
+        border: 3px solid var(--text-light);
     }
 
     nav #check:checked ~ ul{
+        left: 0;
+    }
+
+    nav #check:checked ~ ul li a{
         left: 0;
     }
 
@@ -323,10 +334,62 @@ ul li a:hover{
     }
 
     .image{
-        grid-area: 1/1/2/2;
+        display: block;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .image img{
+        width: min(15rem, 90%);
+        border-radius: 60%;
+        height: 15rem;
+        border: 1px solid var(--primary-color);
+        margin-right: 0;
     }
 
     .action_btns{
         margin: auto;
     }
+
+    .timeline{
+        display: block;
+    }
+
+    .image1{
+        display: block;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+    .image1 img{
+        border-radius: 60%;
+        height: 6rem;
+        border: 1px solid var(--primary-color);
+        align-items: center;
+        
+    }
+
+    .infor_container1{
+        display: flex;
+    }
+
+    .subtitle{
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    
+    .title{
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin-bottom: 0.5rem;
+     }
+    
+     .title span{
+         font-weight: 600;
+         font-size: 2rem;
+     }
+
+     
 }
