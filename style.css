@@ -267,20 +267,18 @@ ul li a:hover{
 
 .image1{
     display:flex;
-    margin-bottom: 2rem;
-    
-    
+    margin-bottom: 2rem;    
 }
 
 .image1 img{
     flex: 1;
     border-radius: 60%;
-    height: 11rem;
+    height: 10rem;
     border: 1px solid var(--primary-color);
     transition: transform .2s;
     align-items: center;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .image1 img:hover {
@@ -390,13 +388,12 @@ h5{
 
     .image1{
         display: block;
-        margin-bottom: 1rem;
-        
+        margin-bottom: 1rem;  
     }
 
     .image1 img{
         border-radius: 60%;
-        height: 6rem;
+        height: 5rem;
         border: 1px solid var(--primary-color);
         align-items: center;
         margin-left: 2rem;
