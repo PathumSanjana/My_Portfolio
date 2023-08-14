@@ -15,6 +15,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: var(--extra-light);
+}
+
 a{
     text-decoration: none;
 }
@@ -87,7 +91,6 @@ ul li a:hover{
 
 .section{
     background-color: var(--extra-light);
-    
 }
 
 .section_container{
@@ -180,6 +183,89 @@ ul li a:hover{
     border: 1px solid var(--primary-color);
 }
 
+.infor{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px  var(--primary-color);
+    margin-bottom: 4rem;
+}
+
+.infortitle{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    border-bottom: 5px solid var(--text-light);
+}
+
+.infor_container p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 0;
+}
+
+.infor_container h3{
+    margin-top: 0;
+    text-align: center;
+}
+
+.timeline{
+    display: flex;
+}
+
+.timeline_item{
+    flex: 1;
+    display: flex;
+}
+
+.timeline_item_content{
+    padding: 0.8rem;
+    margin-bottom: 0.9rem;
+    margin-left: 1rem;
+}
+
+.timeline_item_content h4{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.2rem;
+}
+
+.ri-graduation-cap-fill{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-left: 5%;
+    margin-top: 1.1rem;
+}
+
+.image1{
+    display:flex;
+    margin-bottom: 1rem;
+}
+
+.image1 img{
+    width: min(10rem, 90%);
+    border-radius: 60%;
+    height: 10rem;
+    border: 1px solid var(--primary-color);
+    margin-left: 5.5%;
+}
+
+#item{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-left: 5%;
+    margin-top: 0.8rem;
+}
+
+.box2{
+    display: flex;
+    
+}
 
 @media screen and (max-width: 750px){
     nav .checkbox{
