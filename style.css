@@ -437,6 +437,27 @@ h5{
 }
 
 @media screen and (max-width: 992px) {
+
+    .image1 img{
+        border-radius: 60%;
+        height: 5rem;
+        border: 1px solid var(--primary-color);
+        align-items: center;
+        margin-left: 2rem;
+        
+    }
+
+    .project_title{
+        font-size: 0.9rem;
+    }
+
+    .infortitle{   
+        font-size: 1.0rem;
+    }
+
+    .project_description{
+        font-size: 0.4rem;
+    }
     
   }
   
