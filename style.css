@@ -115,6 +115,7 @@ ul li a:hover{
     color: var(--primary-color);
     font-weight: 600;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 .title{
@@ -127,12 +128,12 @@ ul li a:hover{
 
  .title span{
      font-weight: 600;
-     font-size: 3rem;
+     font-size: 3.5rem;
  }
 
  .description{
     line-height: 1.5rem;
-    color: var(--text-dark);
+    color: var(--primary-color);
     margin-bottom: 2rem;
     font-size: 1rem;
  }
@@ -183,7 +184,15 @@ ul li a:hover{
     height: 27rem;
     border: 1px solid var(--primary-color);
     margin-right: 15%;
+    transition: transform .2s;
 }
+
+.image img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+
 
 .infor{
     margin-left: 10%;
@@ -224,10 +233,18 @@ ul li a:hover{
     display: flex;
     margin-right: 1%;
     margin-left: 1%;
-    box-shadow: 0 0 20px  var(--text-light);
+    box-shadow: 0 0 20px var(--text-light);
     border-radius: 4%;
     margin-bottom: 1%;
+    transition: transform .2s;
+    background-color: var(--extra-light);
 }
+
+.timeline_item:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 
 .timeline_item_content{
     padding: 0.8rem;
@@ -251,6 +268,8 @@ ul li a:hover{
 .image1{
     display:flex;
     margin-bottom: 2rem;
+    
+    
 }
 
 .image1 img{
@@ -258,9 +277,17 @@ ul li a:hover{
     border-radius: 60%;
     height: 11rem;
     border: 1px solid var(--primary-color);
-    margin-left: 5%;
-    margin-right: 5%;
+    transition: transform .2s;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
+
+.image1 img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 
 #item{
     font-size: 1.5rem;
@@ -290,14 +317,20 @@ ul li a:hover{
     margin-right: 1%;
     box-shadow: 0 0 20px  var(--text-light);
     border-radius: 5%;
+    transition: transform .2s;
 }
 
+.project:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 h5{
     color: var(--primary-color);
     font-size: 1rem;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width:  600px){
     nav .checkbox{
         display: block;
     }
@@ -358,7 +391,7 @@ h5{
     .image1{
         display: block;
         margin-bottom: 1rem;
-        align-items: center;
+        
     }
 
     .image1 img{
@@ -366,6 +399,7 @@ h5{
         height: 6rem;
         border: 1px solid var(--primary-color);
         align-items: center;
+        margin-left: 2rem;
         
     }
 
@@ -391,5 +425,23 @@ h5{
          font-size: 2rem;
      }
 
+     .infortitle{   
+        font-size: 1.0rem;
+    }
+
+    .timeline_item_content h4{
+        font-size: 1.1rem;
+    }
+
+    .project_title{
+        font-size: 1.1rem;
+    }
      
 }
+
+@media screen and (max-width: 992px) {
+    
+  }
+  
+ 
+  
