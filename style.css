@@ -367,11 +367,10 @@ h3{
         font-size: 1.25rem;
         flex: 1;
         margin-top: 2px;
-        border-bottom: 1px solid var(--text-light);
     }
 
     .section_container{
-        padding: 6.7rem 1rem 5rem 1rem;
+        padding: 6.5rem 1rem 5rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
