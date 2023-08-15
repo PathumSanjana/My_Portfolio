@@ -370,7 +370,7 @@ h3{
     }
 
     .section_container{
-        padding: 6.5rem 1rem 5rem 1rem;
+        padding: 6rem 1rem 5rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
