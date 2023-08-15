@@ -137,7 +137,7 @@ ul li a:hover{
     margin-bottom: 2rem;
     font-size: 1rem;
  }
-
+ 
  .action_btns{
         display: flex;
         gap: 1rem;
@@ -238,6 +238,7 @@ ul li a:hover{
     margin-bottom: 1%;
     transition: transform .2s;
     background-color: var(--extra-light);
+    color: var(--primary-color);
 }
 
 .timeline_item:hover {
@@ -316,6 +317,7 @@ ul li a:hover{
     box-shadow: 0 0 20px  var(--text-light);
     border-radius: 5%;
     transition: transform .2s;
+    color: var(--primary-color);
 }
 
 .project:hover {
@@ -328,6 +330,12 @@ h5{
     font-size: 1rem;
 }
 
+h3{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+
 @media screen and (max-width:  600px){
     nav .checkbox{
         display: block;
@@ -335,8 +343,9 @@ h5{
 
     ul{
         position:absolute;
+        display: flex;
         width: 100%;
-        height: calc(60vh - 85px);
+        height: calc(65vh - 85px);
         left: -100%;
         top: 100px;
         background-color: var(--primary-color);
@@ -356,10 +365,13 @@ h5{
 
     ul li a{
         font-size: 1.25rem;
+        flex: 1;
+        margin-top: 2px;
+        border-bottom: 1px solid var(--text-light);
     }
 
     .section_container{
-        padding: 10rem 1rem 5rem 1rem;
+        padding: 6.7rem 1rem 5rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -376,6 +388,7 @@ h5{
         height: 15rem;
         border: 1px solid var(--primary-color);
         margin-right: 0;
+        margin-top: 0rem;
     }
 
     .action_btns{
@@ -433,7 +446,18 @@ h5{
     .project_title{
         font-size: 1.1rem;
     }
-     
+
+    .action_btns button{
+        flex: 1;
+        padding-bottom: 1px;
+        padding-top: 1px;
+     }
+
+     h3{
+        
+        font-size: 1rem;
+    }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -455,9 +479,15 @@ h5{
         font-size: 1.0rem;
     }
 
-    .project_description{
-        font-size: 0.4rem;
+    .project{
+        padding: 0rem;
+        margin-right: 0rem;
     }
+
+    .project p{
+        font-size: 1rem;
+    }
+
     
   }
   
