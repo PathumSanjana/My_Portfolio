@@ -1,8 +1,6 @@
 :root{
     --primary-color: hsl(243, 93%, 17%);
-    --primary-color-dark: #f5a623;
     --secondary-color: #f5a623;
-    --text-dark: #333;
     --text-light: #fff;
     --extra-light:#b8edf7;
     --max-width: 1200px;
@@ -49,7 +47,7 @@ nav .logo a{
 }
 
 nav .logo a:hover{
-    color: var(--primary-color-dark);
+    color: var(--secondary-color);
 }
 
 nav .checkbox{
@@ -143,7 +141,7 @@ ul li a:hover{
         gap: 1rem;
  }
 
- .action_btns button{
+ .action_btns a{
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -161,15 +159,16 @@ ul li a:hover{
  }
 
  .hire_me:hover{
-    background-color: var(--primary-color-dark);
+    background-color: var(--secondary-color);
  }
 
  .get_resume{
+    background-color: var(--text-light);
     color: var(--primary-color);
  }
 
  .get_resume:hover{
-    border-color: var(--primary-color-dark);
+    border-color: var(--secondary-color);
     color: var(--text-dark);
  }
 
